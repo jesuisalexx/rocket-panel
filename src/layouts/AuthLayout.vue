@@ -22,9 +22,12 @@ export default {
   align-items: center;
 }
 .slot-place {
-  width: 30%;
-  height: 80vh;
+  width: 31.31%;
+  height: 100vh;
   background: var(--card-bg);
   border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

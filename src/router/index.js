@@ -17,6 +17,30 @@ const routes = [
       layout: 'AuthLayout',
     },
   },
+  {
+    path: '/sign-up',
+    name: 'SignUp',
+    component: () => import('../views/SignUp.vue'),
+    meta: {
+      layout: 'AuthLayout',
+    },
+  },
+  {
+    path: '/forgot-password',
+    name: 'ForgotPassword',
+    component: () => import('../views/ForgotPassword.vue'),
+    meta: {
+      layout: 'AuthLayout',
+    },
+  },
+  {
+    path: '/reset-password',
+    name: 'ResetPassword',
+    component: () => import('../views/ResetPassword.vue'),
+    meta: {
+      layout: 'AuthLayout',
+    },
+  },
 ];
 
 const router = createRouter({
